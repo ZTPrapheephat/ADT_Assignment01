@@ -38,7 +38,7 @@ class Student {
 public class StudentDataProgram {
     public static void main(String[] args) throws IOException {
 
-        if (args.length < 2) { // Check if the input argument is less than 1 or not
+        if (args.length < 2) { // Check if the input argument is less than 2 or not
             System.out.println("Insufficient argument were given. Please try again later.");
             System.out.println("The program has ended successfully.");
             return;
