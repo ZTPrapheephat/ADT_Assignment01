@@ -2,7 +2,7 @@
 ## A program that reads class_roaster67.csv file and let you sort student data or search for student's first name
 This is the step-by-step guide to use this program.
 
-1. **Download StudentDataProgram.java and class_roaster67.csv, which are attatched to this repository**
+1. **Download StudentDataProgram.java and class_roaster67.csv(optional if using your own identical(?) class_roaster67.csv file), which are attatched to this repository**
 2. **(Optional) Move the 2 files earlier to your desired folder**
 3. **Open Command Prompt or your choice of CLI program**
 4. **Change directory to where you downloaded the files:** In your CLI program, from now on will be called as CMD, type in `cd ` and your folder destination where you store 2 files earlier. You can copy the folder directory in file explorer.
@@ -49,3 +49,5 @@ This is the step-by-step guide to use this program.
         > java StudentDataProgram [-s] [class_roaster67.csv] [first name]
 
         (-s and class_roaster67.csv are already the correct arguments. No need to do anything about them)
+
+        The name you search is case-insensitive, means if the name matches, regardless of lowercases or uppercases, it should work properly.
