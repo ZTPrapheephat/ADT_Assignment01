@@ -16,11 +16,23 @@ This is the step-by-step guide to use this program.
         java StudentDataProgram [sorting operation] class_roaster67.csv
         ```
         **Available operations are**
-        - Sorting by SID: Sort Student data by Student ID. To call this operation, use `-n`<br>
-        Example image: ![SortBySID](https://drive.google.com/uc?export=view&id=1ZGH30yh7iNzUMCdlR5IiYws2ZDvFVUxy)
+        - Sorting by SID: Sort Student data by Student ID. To call this operation, use `-n`
+        ```bash
+        java StudentDataProgram -n class_roaster67.csv
+        ```
+        Example image: <br>
+            <img src="https://drive.google.com/uc?export=view&id=1ZGH30yh7iNzUMCdlR5IiYws2ZDvFVUxy" width="700" />
 
-        - Sorting by First name: Sort Student data by First name. To call this operation, use `-f`<br>
-        Example image: ![SortByFirst](https://drive.google.com/uc?export=view&id=1N4D_EX5yTF4x9eiEOUmRWIs5ufiwIIE-)
+        - Sorting by First name: Sort Student data by First name. To call this operation, use `-f`
+        ```bash
+        java StudentDataProgram -f class_roaster67.csv
+        ```
+        Example image: <br>
+            <img src="https://drive.google.com/uc?export=view&id=1N4D_EX5yTF4x9eiEOUmRWIs5ufiwIIE-" width=700 />
 
-        - Sorting by Last name: Sort Student data by Last name. To call this operation, use `-l`<br>
-        Example image: ![SortByLast](https://drive.google.com/uc?export=view&id=1a9B6pHsHqVMWzML_ahWBGSMpZt2vyX5S)
+        - Sorting by Last name: Sort Student data by Last name. To call this operation, use `-l`
+        ```bash
+        java StudentDataProgram -l class_roaster67.csv
+        ```
+        Example image: <br>
+            <img src="https://drive.google.com/uc?export=view&id=1a9B6pHsHqVMWzML_ahWBGSMpZt2vyX5S" width=700 >
