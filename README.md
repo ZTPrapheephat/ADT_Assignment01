@@ -1,6 +1,6 @@
 # Student sorting/searching program assignment for ADT & Problem Solving subject
-## A program that reads class_roaster67.csv file and let you sort student data or search for student's first name
-This is the step-by-step guide to use this program.
+A program that reads class_roaster67.csv file and let you sort student data or search for student's first name
+## This is the step-by-step guide to use this program.
 
 1. **Download StudentDataProgram.java and class_roaster67.csv(optional if using your own identical(?) class_roaster67.csv file), which are attatched to this repository**
 2. **(Optional) Move the 2 files earlier to your desired folder**
@@ -48,6 +48,19 @@ This is the step-by-step guide to use this program.
         
         > java StudentDataProgram [-s] [class_roaster67.csv] [first name]
 
-        (-s and class_roaster67.csv are already the correct arguments. No need to do anything about them)
+        (`-s` and class_roaster67.csv are already the correct arguments. No need to do anything about them)
 
-        The name you search is case-insensitive, means if the name matches, regardless of lowercases or uppercases, it should work properly.
+        ```bash
+        java StudentDataProgram -s class_roaster67.csv [first name]
+        ```
+
+        The name you search is case-insensitive, means if the name matches, regardless of lowercases or uppercases, it should work properly.<br>
+            <p style="margin-bottom: 20px;">Example: Name found <br></p>
+                <img src="https://drive.google.com/uc?export=view&id=1rSUSpX5C_gRkkRrHibpjQcGlUNHJVZRg" width=700 />
+            <p style="margin-bottom: 20px;">Example: Name not found <br></p>
+                <img src="https://drive.google.com/uc?export=view&id=138oAgYweYM9gVrJHnpsEnSUMsCLleXG6" width=700 />
+            <p style="margin-bottom: 20px;">If the operation `-s` is incorrectly called, it will return error as follows <br></p>
+                <img src="https://drive.google.com/uc?export=view&id=1PD3ihnCrucm1C7PU4OmRXhfS83BU30VR" width=700 />
+
+**That should be all. Thank you for reading and using this program. Wish me luck on midterm exam!**
+
