@@ -103,7 +103,8 @@ public class StudentDataProgram {
                     System.out.println("Invalid operation or incorrect argument format. Please try again later.");
                     break;
             }
-        } else if (args.length == 3) { // Check if the length of argument is 3, then performing linear search
+        } else if (args.length == 3 && operationChoice == "-s") {
+            // Check if the length of argument is 3 and operationChoice is -s, then performing linear search
             String nameSearch = args[2].toLowerCase();
             // Needed to put here because it will cause index out of bounds
             // Also needed .toLowerCase() because either mixed cases or all-capitalized doesn't work properly
